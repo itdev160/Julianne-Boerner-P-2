@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+#main-header {
+    background-color: #0eadd4;
+}
+
+.consumer-question {
+    font-size: x-large;
+    text-align: center;
+    background-color: lightgray
+}
+#main-header h1 {
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+}
+
+#sidebar {
+    width: 200px;
+    flex: 0 0 12em;
+    background-color: #88ebee;
+    height: 475px;
+}
+
+#sidebar ul {
+    padding: 4px;
+    list-style-type: none;
+    /* background-color: #88ebee; */
+}
+
+#sidebar ul li {
+    color: black;
+    padding: 0 0 10px 20 px;
+}
+
+#sidebar ul li:hover {
+    cursor: pointer;
+    background-color: #32373c;
+}
+
+#post-container {
+    flex: 1;
+    background-color: #eee;
+    padding-left: 20px;
+    height: 475px;
+}
+
+#intro h2 {
+    display: Center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: lem lem lem 0;
+}
+
+blockquote:before,
+blockquote:after {
+    content: "";
+}
+
+.picture {
+    width: 250px;
+}
+
+table {
+    widows: 100%;
+    border-spacing: 0.5em;
+    padding: 15px;
+}   
+tr.head {
+    background-color:  #0eadd4;
+    
+}
+tr:nth-child(even) {
+    background-color: #88ebee;
+}
+td:hover {
+    background-color: rgb(211, 64, 224);
+}
